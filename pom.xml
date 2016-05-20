@@ -55,6 +55,11 @@
 			<version>${org.springframework.version}</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>4.2.5.RELEASE</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -115,16 +120,16 @@
 		</plugins>
 	</build>
 
-	<distributionManagement>
-		<repository>
-			<id>nexus-releases</id>
-			<name>Nexus Release Repository</name>
-			<url>http://localhost/nexus/content/repositories/releases</url>
-		</repository>
-		<snapshotRepository>
-			<id>nexus-snapshots</id>
-			<name>Nexus Snapshots Repository</name>
-			<url>http://localhost/nexus/content/repositories/snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
+	<!--<distributionManagement>-->
+		<!--<repository>-->
+			<!--<id>nexus-releases</id>-->
+			<!--<name>Nexus Release Repository</name>-->
+			<!--<url>http://localhost/nexus/content/repositories/releases</url>-->
+		<!--</repository>-->
+		<!--<snapshotRepository>-->
+			<!--<id>nexus-snapshots</id>-->
+			<!--<name>Nexus Snapshots Repository</name>-->
+			<!--<url>http://localhost/nexus/content/repositories/snapshots</url>-->
+		<!--</snapshotRepository>-->
+	<!--</distributionManagement>-->
 </project>
